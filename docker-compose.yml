@@ -3,7 +3,7 @@ name: webdev
 services:
   php:
     build:
-      context: php_container
+      context: .
       dockerfile: ./docker_config/php.Dockerfile
     container_name: php_container
     ports:
