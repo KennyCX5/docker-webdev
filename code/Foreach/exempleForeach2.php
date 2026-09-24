@@ -60,6 +60,16 @@
 	<meta charset="utf8"/>
 </head>
 <body>
-
+<div>
+	<p>
+	<?php
+		foreach($municipis as $municipi) {?>
+		 <a href='" <?=$municipi['link']; ?> ' target='_blank'><?php echo $municipi['nom']; ?></a><br>
+		<?php 
+		} ?>
+		 
+	?>
+	</p>
+</div>
 </body>
 </html>

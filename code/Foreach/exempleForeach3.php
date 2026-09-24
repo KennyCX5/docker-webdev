@@ -155,6 +155,19 @@
 	<meta charset="utf8"/>
 </head>
 <body>
-
+	<table>
+		<tr>
+		<?php
+		
+			foreach ($colors as $i => $color) { ?>
+				
+				if((<?= $i + 1?>)% 3 == 0)
+					<td  style="background-color: <?= $color['codi'] ?>"><?= $color['nom'] ?></td>
+				
+		<?php 
+		} ?>
+		</tr>
+	</table>
 </body>
 </html>
+

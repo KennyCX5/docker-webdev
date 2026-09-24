@@ -64,10 +64,10 @@
 
 	<p>
 	<?php
-		foreach ($municipis as $municipi) {
-			echo "<li>$municipi</li>";
-		}
-	?>
+		foreach ($municipis as $municipi) {?>
+			 
+			<p><?= $municipi ?> </p>
+		<?php } ?>
 	</p>
 
 
