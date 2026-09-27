@@ -64,7 +64,7 @@
 	<p>
 	<?php
 		foreach($municipis as $municipi) {?>
-		 <a href='" <?=$municipi['link']; ?> ' target='_blank'><?php echo $municipi['nom']; ?></a><br>
+		 <p> <a href="<?= $municipi['link'] ?>" target="_blank"><?= $municipi['nom'] ?></a></p>
 		<?php 
 		} ?>
 		 
