@@ -54,6 +54,8 @@ $municipis = array(
 	array('nom' => 'Cantonigròs', 'link' => 'http://www.enciclopedia.cat/EC-GEC-0014494.xml'),
 );
 
+$cerca = isset($_GET['cerca']) ? $_GET['cerca'] : null;
+
 ?>
 <!doctype html>
 <html>
@@ -70,15 +72,21 @@ $municipis = array(
 	</div>
 	<div>
 		<?php
-		$cerca = isset($_REQUEST['cerca']) ? $_REQUEST['cerca'] : '';
-
+		if ($cerca) {
+			$trobat = false;
 			foreach ($municipis as $m) {
 				if (stristr($m['nom'], $cerca)) {
-					<p><a href="<?= $m['link'] ?><?= $m['nom'] ?></a></p>;
+					$trobat = true;
+		?>
+					<p><a href="<?= $m['link'] ?>"><?= $m['nom'] ?></a></p>
+		<?php }
+				if (!$trobat) {
+					echo "<p>No s'ha trobat cap municipi amb el text $cerca</p>";
 				}
 			}
-
+		}
 		?>
+
 
 	</div>
 
