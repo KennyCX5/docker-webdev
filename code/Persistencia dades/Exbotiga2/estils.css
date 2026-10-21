@@ -1,0 +1,123 @@
+body{
+	border:0;
+	line-height:1;
+	margin:5px 5px 10px;
+	padding:0;
+	vertical-align:baseline}
+a img{
+	border:0}
+#columnA{
+	display:inline;
+	float:left}
+#columnB{
+	float:right}
+#contenidor{
+	margin:0 auto;
+	width:995px}
+.clear{
+	clear:both}
+html,div,span,applet,object,iframe,p,pre,a,abbr,acronym,address,big,cite,code,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,li,fieldset,form,label,legend,caption,tbody,tfoot,thead,tr,th,td{
+	border:0;
+	margin:0;
+	padding:0;
+	vertical-align:baseline}
+ol,ul{
+	border:0;
+	list-style:none;
+	margin:0;
+	padding:0;
+	vertical-align:baseline}
+a:link{
+	color:#525252;
+	text-decoration:none}
+a:hover{
+	color:#ffb400;
+	text-decoration:none}
+#contingutPrincipal{
+	float:right;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:5px 0 0;
+	width:980px}
+#carroCompra, #caixaLlistat{
+	-khtml-border-radius:10px;
+	-moz-border-radius:10px;
+	-ms-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color:#f1f1f1;
+	border-radius:10px;
+	line-height:13px;
+	margin:10px 0;
+	padding:10px;
+	width:980px}
+#carroCompra td{
+	border-bottom: 1px solid #fff;
+	padding: 0 50px;
+}
+td.cNum {
+	text-align: right;
+}
+#caixaLlistat li{
+	background-color:#fff;
+	display:inline;
+	float:left;
+	line-height:13px;
+	margin:5px;
+	padding:10px;
+	width:166px}
+#caixaLlistat li img{
+	display: block;
+	margin: 0 auto;
+}
+#caixaNomP{
+	height:38px;
+	margin:5px 0}
+#caixaPreuP{
+	height:35px;
+	line-height:18px;
+	margin:3px 0}
+.etiqDescompte{
+	background-position:-196px -5px;
+	color:#000;
+	display:block;
+	font:bold 18px/24px Arial, helvetica, sans-serif;
+	height:36px;
+	margin:-155px 0 121px 137px;
+	padding:3px 0 0 5px;
+	position:relative;
+	text-decoration:none;
+	width:45px}
+.sense_iva,.amb_iva {
+	color:#999;
+	font-size:10px}
+.marca{
+	color:#ffb400;
+	font-size:10px;
+	margin-bottom:5px}
+.preu{
+	font-size:12px;
+	font-weight:bold;
+	line-height:13px}
+.preu_oferta{
+	color:#900;
+	font-size:12px;
+	font-weight:normal}
+.preu_anterior{
+	color:#666;
+	font-size:11px}
+.nom {
+	color:#525252;
+	font-weight:bold}
+.marca a:link,.marca a:active,.marca a:visited {
+	color:#ffb400;
+	text-decoration:none}
+.marca a:hover,#info a:hover{
+	color:#ffb400;
+	text-decoration:underline}
+input{
+  font-size: 1.5em;
+}
+input[type="number"]{
+  width: 40px;
+  height: 20px;
+}
