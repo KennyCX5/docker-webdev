@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 70%;
+    margin: 0 auto;
+    font-family: verdana, serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+#taula tr:nth-child(even) {
+    background-color: #eee;
+}
+#taula tr:nth-child(odd) {
+    background-color: #fff;
+}
+#taula th {
+    color: white;
+    background-color: black;
+}
