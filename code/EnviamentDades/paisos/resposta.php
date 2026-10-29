@@ -69,7 +69,7 @@
                 <td><?= $paisos[$codiPais]['population'] ?> habitants</td>
             </tr>
             <tr>
-                <td><?= $paisos[$codiPais]['area'] ?></td>
+                <td><?= $paisos[$codiPais]['area'] ?>Km</td>
             </tr>
         </table>
 
